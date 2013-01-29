@@ -1,0 +1,57 @@
+{
+  "replacing": {
+  },
+  "conflicting": {
+  },
+  "maintainer_email": "emil.olofsson@cgi.com",
+  "dependencies": {
+    "rightscale": ">= 0.0.0"
+  },
+  "description": "Installs/Configures env",
+  "attributes": {
+    "env/file_name": {
+      "type": "string",
+      "description": "The name of the file)",
+      "choice": [
+
+      ],
+      "display_name": "File Name",
+      "recipes": [
+        "env::folder_create"
+      ],
+      "calculated": false,
+      "required": "required"
+    },
+    "env/folder_name": {
+      "type": "string",
+      "description": "The full folder path (/opt/environment/archive/)",
+      "choice": [
+
+      ],
+      "display_name": "Folder Name",
+      "recipes": [
+        "env::folder_create"
+      ],
+      "calculated": false,
+      "required": "required"
+    }
+  },
+  "license": "All rights reserved",
+  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
+  "groupings": {
+  },
+  "providing": {
+  },
+  "name": "env",
+  "recipes": {
+    "env::create_folder": "Creates folder and add file"
+  },
+  "platforms": {
+  },
+  "suggestions": {
+  },
+  "maintainer": "CGI",
+  "recommendations": {
+  },
+  "version": "0.0.1"
+}

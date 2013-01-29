@@ -1,31 +1,31 @@
 {
-  "attributes": {
+  "suggestions": {
   },
+  "platforms": {
+  },
+  "groupings": {
+  },
+  "replacing": {
+  },
+  "name": "hello",
+  "dependencies": {
+    "rightscale": ">= 0.0.0"
+  },
+  "maintainer": "CGI",
   "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
   "recipes": {
     "hello::default": "Print things in output"
   },
-  "license": "All rights reserved",
-  "name": "hello",
-  "description": "Will print a silly message in the output",
-  "suggestions": {
-  },
-  "replacing": {
-  },
+  "maintainer_email": "emil.olofsson@cgi.com",
   "providing": {
   },
-  "dependencies": {
-    "rigthscale": ">= 0.0.0"
-  },
-  "groupings": {
-  },
-  "platforms": {
-  },
+  "version": "0.0.2",
   "conflicting": {
   },
-  "version": "0.0.2",
-  "recommendations": {
+  "license": "All rights reserved",
+  "description": "Will print a silly message in the output",
+  "attributes": {
   },
-  "maintainer_email": "emil.olofsson@cgi.com",
-  "maintainer": "CGI"
+  "recommendations": {
+  }
 }

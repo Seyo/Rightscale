@@ -5,4 +5,4 @@ description      "Installs/Configures hello"
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          "0.0.1"
 
-recipe "hello:default","Print things in output"
+recipe "hello::default","Print things in output"

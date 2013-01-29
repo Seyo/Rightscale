@@ -1,0 +1,30 @@
+{
+  "conflicting": {
+  },
+  "groupings": {
+  },
+  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
+  "providing": {
+  },
+  "recipes": {
+    "hello:default": "Print things in output"
+  },
+  "attributes": {
+  },
+  "platforms": {
+  },
+  "license": "All rights reserved",
+  "maintainer": "YOUR_COMPANY_NAME",
+  "description": "Installs/Configures hello",
+  "version": "0.0.1",
+  "suggestions": {
+  },
+  "name": "hello",
+  "replacing": {
+  },
+  "recommendations": {
+  },
+  "dependencies": {
+  },
+  "maintainer_email": "YOUR_EMAIL"
+}

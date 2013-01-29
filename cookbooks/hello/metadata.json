@@ -1,30 +1,31 @@
 {
-  "dependencies": {
+  "attributes": {
   },
-  "license": "All rights reserved",
+  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
   "recipes": {
     "hello::default": "Print things in output"
+  },
+  "license": "All rights reserved",
+  "name": "hello",
+  "description": "Will print a silly message in the output",
+  "suggestions": {
+  },
+  "replacing": {
+  },
+  "providing": {
+  },
+  "dependencies": {
+    "rigthscale": ">= 0.0.0"
   },
   "groupings": {
   },
   "platforms": {
   },
-  "version": "0.0.1",
-  "suggestions": {
-  },
-  "providing": {
-  },
-  "replacing": {
-  },
-  "description": "Installs/Configures hello",
-  "attributes": {
-  },
   "conflicting": {
   },
+  "version": "0.0.2",
   "recommendations": {
   },
-  "maintainer_email": "YOUR_EMAIL",
-  "maintainer": "YOUR_COMPANY_NAME",
-  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
-  "name": "hello"
+  "maintainer_email": "emil.olofsson@cgi.com",
+  "maintainer": "CGI"
 }

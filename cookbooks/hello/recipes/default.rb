@@ -7,4 +7,6 @@
 # All rights reserved - Do Not Redistribute
 #
 
-log "Why not Zoidberg?"
+rightscale_marker :begin
+log "Why not Zoidberg?\nZoidberg bring you alot of happieness\nDon\'t forget about Zoidberg."
+rightscale_marker :end

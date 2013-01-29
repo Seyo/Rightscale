@@ -1,57 +1,57 @@
 {
-  "replacing": {
+  "groupings": {
   },
+  "platforms": {
+  },
+  "license": "All rights reserved",
   "conflicting": {
   },
-  "maintainer_email": "emil.olofsson@cgi.com",
-  "dependencies": {
-    "rightscale": ">= 0.0.0"
+  "suggestions": {
   },
-  "description": "Installs/Configures env",
+  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
+  "name": "env",
+  "version": "0.0.1",
+  "providing": {
+  },
   "attributes": {
-    "env/file_name": {
-      "type": "string",
-      "description": "The name of the file)",
-      "choice": [
-
-      ],
-      "display_name": "File Name",
-      "recipes": [
-        "env::folder_create"
-      ],
-      "calculated": false,
-      "required": "required"
-    },
     "env/folder_name": {
+      "calculated": false,
       "type": "string",
-      "description": "The full folder path (/opt/environment/archive/)",
       "choice": [
 
       ],
       "display_name": "Folder Name",
       "recipes": [
-        "env::folder_create"
+        "env::create_folder"
       ],
+      "description": "The full folder path (/opt/environment/archive/)",
+      "required": "required"
+    },
+    "env/file_name": {
       "calculated": false,
+      "type": "string",
+      "choice": [
+
+      ],
+      "display_name": "File Name",
+      "recipes": [
+        "env::create_folder"
+      ],
+      "description": "The name of the file)",
       "required": "required"
     }
   },
-  "license": "All rights reserved",
-  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
-  "groupings": {
+  "dependencies": {
+    "rightscale": ">= 0.0.0"
   },
-  "providing": {
-  },
-  "name": "env",
+  "maintainer": "CGI",
   "recipes": {
     "env::create_folder": "Creates folder and add file"
   },
-  "platforms": {
-  },
-  "suggestions": {
-  },
-  "maintainer": "CGI",
+  "maintainer_email": "emil.olofsson@cgi.com",
   "recommendations": {
   },
-  "version": "0.0.1"
+  "description": "Installs/Configures env",
+  "replacing": {
+  }
 }

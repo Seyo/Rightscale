@@ -15,11 +15,11 @@ attribute "env/folder_name",
           :display_name => "Folder Name",
           :description => "The full folder path (/opt/environment/archive/)",
           :required => "required",
-          :recipes => ["env::folder_create"]
+          :recipes => ["env::create_folder"]
 
 attribute "env/file_name",
           :display_name => "File Name",
           :description => "The name of the file)",
           :required => "required",
-          :recipes => ["env::folder_create"]
+          :recipes => ["env::create_folder"]
 
